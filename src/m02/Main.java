@@ -5,6 +5,8 @@
  */
 package m02;
 
+import clubcoder.Elang;
+
 /**
  *
  * @author Maikel
@@ -23,24 +25,30 @@ public class Main {
         
         k.printBird();
         k.berkicau();
+        k.berkicau("zzzzzxxxx");
         k.terbang();
         
         System.out.println("");
         
-        HybridBird h = new HybridBird(10,"merah");
-        h.berkicau();
-        h.printHybridProperty();
+        Elang e = new Elang();
         
-        System.out.println("");
         
-        KakakTuaMuda km = new KakakTuaMuda();
-        km.berbicara();
-        km.berkicau();
-        
-        System.out.println("");
-        
-        Bird b = (Bird) km;
-        b.berkicau();
+//        System.out.println("");
+//        
+//        HybridBird h = new HybridBird(10,"merah");
+//        h.berkicau();
+//        h.printHybridProperty();
+//        
+//        System.out.println("");
+//        
+//        KakakTuaMuda km = new KakakTuaMuda();
+//        km.berbicara();
+//        km.berkicau();
+//        
+//        System.out.println("");
+//        
+//        Bird b = (Bird) km;
+//        b.berkicau();
         
         
     }

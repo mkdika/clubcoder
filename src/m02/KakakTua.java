@@ -12,11 +12,17 @@ package m02;
 public class KakakTua extends Bird {
     
     
-
+    
     @Override
     public void berkicau() {
         System.out.println("a e i u o");
     }
+    
+    public void berkicau(String kicauan) {
+        System.out.println(kicauan);
+    }
+    
+    
 
     @Override
     public void terbang() {
@@ -24,11 +30,11 @@ public class KakakTua extends Bird {
     }
     
     public void berbicara() {
-        System.out.println("hello babe!");
+        System.out.println("hello babe!");        
     }
     
     
-    
+
     
     
 }

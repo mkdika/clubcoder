@@ -23,7 +23,7 @@ public class Bird {
         this.warna = warna;
     }
     
-    public void berkicau() {
+    protected void berkicau() {
         System.out.println("Twit.");
     }
     
@@ -34,5 +34,9 @@ public class Bird {
     public void printBird() {
         System.out.println("ini adalah super class bird.");
     }
+
+    
+    
+    
     
 }
